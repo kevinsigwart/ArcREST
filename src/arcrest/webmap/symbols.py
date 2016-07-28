@@ -1,4 +1,6 @@
-from base import BaseSymbol
+from __future__ import absolute_import
+from __future__ import print_function
+from .._abstract.abstract import BaseSymbol
 import os
 import json
 import base64
@@ -204,7 +206,7 @@ class SimpleMarkerSymbol(BaseSymbol):
     @xoffset.setter
     def xoffset(self, value):
         """ sets the xoffset """
-        if isinstace(value (int, float, long)):
+        if isinstance(value (int, float, long)):
             self._xoffset = value
     #----------------------------------------------------------------------
     @property
@@ -215,7 +217,7 @@ class SimpleMarkerSymbol(BaseSymbol):
     @yoffset.setter
     def yoffset(self, value):
         """ sets the y offset """
-        if isinstace(value (int, float, long)):
+        if isinstance(value (int, float, long)):
             self._yoffset = value
     #----------------------------------------------------------------------
     @property

@@ -1,10 +1,6 @@
-""" package contructor
-.. moduleauthor:: Esri
+from __future__ import absolute_import
+from .services import FeatureService, FeatureLayer, TableLayer, TiledService
+from . import helperservices
+from ._uploads import Uploads
 
-"""
-import common
-import admin
-import layer
-import featureservice
-import filters
-import base
+__version__ = "3.5.6"

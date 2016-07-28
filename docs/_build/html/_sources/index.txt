@@ -1,9 +1,9 @@
 .. src documentation master file, created by
-   sphinx-quickstart on Tue Apr 08 10:01:17 2014.
+   sphinx-quickstart on Wed Feb 17 07:05:59 2016.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to ArcREST's documentation!
+Welcome to src's documentation!
 ===============================
 
 Contents:
@@ -12,6 +12,9 @@ Contents:
    :maxdepth: 4
 
    arcrest
+   arcresthelper
+   setup
+   setup_wheel
 
 
 Indices and tables
